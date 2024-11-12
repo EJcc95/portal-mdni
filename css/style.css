@@ -103,8 +103,8 @@ h6,
 
 /* Ajuste de tamaño para el menú */
 .navbar-light .navbar-nav .nav-link {
-    font-size: 14px; /* Ajusta el tamaño para hacerlo más pequeño */
-    padding: 30px 15px; /* Ajusta el espaciado si es necesario */
+    font-size: 13px; /* Ajusta el tamaño para hacerlo más pequeño */
+    padding: 18px 10px; /* Ajusta el espaciado si es necesario */
 }
 
 /* Ajuste de tamaño para el botón */

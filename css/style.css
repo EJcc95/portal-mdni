@@ -101,6 +101,18 @@ h6,
     transition: .5s;
 }
 
+/* Ajuste de tamaño para el menú */
+.navbar-light .navbar-nav .nav-link {
+    font-size: 14px; /* Ajusta el tamaño para hacerlo más pequeño */
+    padding: 30px 15px; /* Ajusta el espaciado si es necesario */
+}
+
+/* Ajuste de tamaño para el botón */
+.btn-mesa-partes {
+    font-size: 16px; /* Tamaño de la letra en el botón reducido */
+    padding: 8px 18px; /* Ajusta el padding para que el tamaño sea proporcional */
+}
+
 .sticky-top.navbar-light .navbar-nav .nav-link {
     padding: 20px 15px;
 }
@@ -112,8 +124,8 @@ h6,
 .btn-mesa-partes {
     background-color: #0052cc;/* Color de fondo del botón */
     color: var(--dark); /* Color del texto */
-    padding: 10px 20px; /* Espaciado interno */
-    border-radius: 30px; /* Hace que el botón sea redondeado */
+    padding: 5px 15px; /* Espaciado interno */
+    border-radius: 50px; /* Hace que el botón sea redondeado */
     display: inline-flex; /* Alinea el icono y el texto en línea */
     align-items: center; /* Centra verticalmente el icono y el texto */
     font-size: 18px; /* Tamaño de la letra */
@@ -128,16 +140,17 @@ h6,
 }
 
 .btn-mesa-partes i {
-    margin-right: 8px; /* Espaciado entre el icono y el texto */
-    font-size: 18px; /* Tamaño del icono */
+    margin-right: 15px; /* Espaciado entre el icono y el texto */
+    font-size: 25px; /* Tamaño del icono */
     
 }
 
 .btn-mesa-partes:hover {
     background-color: var(--dark);/* Cambia el color de fondo al pasar el mouse */
     color: #0052cc; /* Color del texto al pasar el mouse */
-    
     text-decoration: none; /* Evita el subrayado al pasar el mouse */
+    
+    
 }
 .btn-mesa-partes:hover i {
     color: #0052cc; /* Asegura que el icono también cambie de color si es necesario */

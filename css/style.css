@@ -89,6 +89,8 @@ h6,
     transform: skew(40deg);
 }
 
+
+
 .navbar-light .navbar-nav .nav-link {
     font-family: 'Barlow', sans-serif;
     padding: 35px 15px;
@@ -102,6 +104,45 @@ h6,
 .sticky-top.navbar-light .navbar-nav .nav-link {
     padding: 20px 15px;
 }
+.navbar-brand-text {
+    font-size: 20px; 
+}
+
+
+.btn-mesa-partes {
+    background-color: #0052cc;/* Color de fondo del botón */
+    color: var(--dark); /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 30px; /* Hace que el botón sea redondeado */
+    display: inline-flex; /* Alinea el icono y el texto en línea */
+    align-items: center; /* Centra verticalmente el icono y el texto */
+    font-size: 18px; /* Tamaño de la letra */
+    font-weight: bold; /* Negrita para el texto */
+    text-decoration: none; /* Quita subrayado si es un enlace */
+    white-space: nowrap; /* Evita que el texto haga saltos de línea */
+    font-size: 18px; /* Tamaño de letra del menú */
+    font-family: 'Barlow', sans-serif; /* Fuente usada en el menú */
+    font-weight: 500; /* Peso de la fuente similar al del menú */
+    text-transform: uppercase; /* Todo en mayúsculas, si el menú usa esto */
+    
+}
+
+.btn-mesa-partes i {
+    margin-right: 8px; /* Espaciado entre el icono y el texto */
+    font-size: 18px; /* Tamaño del icono */
+    
+}
+
+.btn-mesa-partes:hover {
+    background-color: var(--dark);/* Cambia el color de fondo al pasar el mouse */
+    color: #0052cc; /* Color del texto al pasar el mouse */
+    
+    text-decoration: none; /* Evita el subrayado al pasar el mouse */
+}
+.btn-mesa-partes:hover i {
+    color: #0052cc; /* Asegura que el icono también cambie de color si es necesario */
+}
+
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {

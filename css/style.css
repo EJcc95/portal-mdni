@@ -41,10 +41,12 @@ h6,
     font-family: 'Barlow', sans-serif;
     font-weight: 600;
     transition: .5s;
+    
 }
 
 .btn-primary {
     color: #FFFFFF;
+    
 }
 
 .btn-square {
@@ -89,7 +91,9 @@ h6,
     transform: skew(40deg);
 }
 
-
+.navbar {
+    background-color:#dde4e4; /* Color azul */
+}
 
 .navbar-light .navbar-nav .nav-link {
     font-family: 'Barlow', sans-serif;
@@ -98,19 +102,43 @@ h6,
     text-transform: uppercase;
     color: var(--dark);
     outline: none;
-    transition: .5s;
+    transition: 0.5s;
+}
+
+.logo-container {
+    display: inline-block;
+    vertical-align: middle; /* Alinea el logo verticalmente */
+    /*background-color: #0033cc; /* Color de fondo azul o el que prefieras */
+    padding: 5px; /* Espacio alrededor del logo para que no se vea muy ajustado */
+    border-radius: 5px; /* Hace que las esquinas sean redondeadas */
+}
+
+.logo-img {
+    height: 50px; /* Ajusta la altura según necesites */
+    width: auto; /* Mantiene la proporción de la imagen */
+}
+.letra-logo {
+    font-family: 'Barlow', sans-serif;
+    font-size: 13px;
+    white-space: nowrap;
+    line-height: 1; /* Ajusta este valor para reducir el espacio */
+    padding: 0;
+    margin: 0;
 }
 
 /* Ajuste de tamaño para el menú */
 .navbar-light .navbar-nav .nav-link {
     font-size: 13px; /* Ajusta el tamaño para hacerlo más pequeño */
-    padding: 18px 10px; /* Ajusta el espaciado si es necesario */
+    padding: 15px 15px; /* Ajusta el espaciado si es necesario */
+    /*white-space: nowrap; /* Evita que el texto haga saltos de línea */
+    align-items: center; /* Centra verticalmente el icono y el texto */
 }
 
 /* Ajuste de tamaño para el botón */
 .btn-mesa-partes {
     font-size: 16px; /* Tamaño de la letra en el botón reducido */
     padding: 8px 18px; /* Ajusta el padding para que el tamaño sea proporcional */
+    
 }
 
 .sticky-top.navbar-light .navbar-nav .nav-link {
@@ -122,7 +150,7 @@ h6,
 
 
 .btn-mesa-partes {
-    background-color: #0052cc;/* Color de fondo del botón */
+    background-color: #1e3fd3;/* Color de fondo del botón */
     color: var(--dark); /* Color del texto */
     padding: 5px 15px; /* Espaciado interno */
     border-radius: 50px; /* Hace que el botón sea redondeado */
@@ -131,7 +159,7 @@ h6,
     font-size: 18px; /* Tamaño de la letra */
     font-weight: bold; /* Negrita para el texto */
     text-decoration: none; /* Quita subrayado si es un enlace */
-    white-space: nowrap; /* Evita que el texto haga saltos de línea */
+    /* white-space: nowrap; /* Evita que el texto haga saltos de línea */
     font-size: 18px; /* Tamaño de letra del menú */
     font-family: 'Barlow', sans-serif; /* Fuente usada en el menú */
     font-weight: 500; /* Peso de la fuente similar al del menú */
@@ -173,7 +201,7 @@ h6,
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(21, 36, 64, .7);
+    background: rgba(21, 36, 64, 0.2);
     z-index: 1;
 }
 
